@@ -1,7 +1,7 @@
 # Photo Memory!
 **Team Name:** Candice 
 
-**Team Members**
+**Team Members:**
 Joshua Little, jelittle@my.yorku.ca  *(Section B, Lab 03)*
 Muna Mohamed, munamoh@my.yorku.ca *(Section B, Lab 03)*
 
