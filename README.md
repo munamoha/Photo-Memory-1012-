@@ -23,4 +23,5 @@ We use card/deck terminology in this document, as a shorthand for our interactiv
 - The system must randomly designate a location in the grid for each individual card
 - The user must be able to input their name for the leaderboard 
 - Based on the user’s miss count, they must be accurately sorted on the leaderboard
+- There will be seperate leaderboards for each difficulty
 - The system shall have an area displaying weather information accurate to the user’s current geographical location. 
