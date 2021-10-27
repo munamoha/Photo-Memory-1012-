@@ -18,10 +18,11 @@ We use card/deck terminology in this document, as a shorthand for our interactiv
 - Show card when the user clicks on it
 - The system must count the amount of times the user selects two non-matching cards
 - Once the user finds two matching cards, both cards must stay visible
-- The system must create a deck of cards to use in the game
-- The system must create a grid of locations on the screen for cards to be placed
-- The system must randomly designate a location in the grid for each individual card
+- The system chooses the necessary amount of images from a preset library to create the deck
+- the system randomizes the location of all the images in the deck
+- The system must create a grid of locations on the screen for cards to be placed, 
+- The system chooses the location of the card on the grid based on its location in the deck
 - The user must be able to input their name for the leaderboard 
-- Based on the user’s miss count, they must be accurately sorted on the leaderboard
+- Based on the user’s miss count, they must be accurately sorted on the leaderboard, the less misses the better
 - There will be seperate leaderboards for each difficulty
 - The system shall have an area displaying weather information accurate to the user’s current geographical location. 
