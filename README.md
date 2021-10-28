@@ -13,7 +13,7 @@ Our project is a memory game, where the player wins by successfully matching all
 We use card/deck terminology in this document, as a shorthand for our interactive images.
 
 **Functional requirements:**
-- Allow the user to choose a difficulty level between easy, medium and hard
+- Allow the user to choose a difficulty level between easy(12 cards), medium(18 cards) and hard(24 cards)
 - Display all the cards and their locations to the player for a short duration, before hiding them
 - Show card when the user clicks on it
 - The system must count the amount of times the user selects two non-matching cards
