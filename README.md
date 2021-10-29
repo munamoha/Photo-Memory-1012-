@@ -26,3 +26,9 @@ We use card/deck terminology in this document, as a shorthand for our interactiv
 - Based on the user’s miss count, they must be accurately sorted on the leaderboard, the less misses the better
 - There will be seperate leaderboards for each difficulty
 - The system shall have an area displaying weather information accurate to the user’s current geographical location. 
+
+
+
+
+**Wireframes**
+
