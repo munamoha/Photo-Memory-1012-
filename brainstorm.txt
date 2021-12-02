@@ -1,0 +1,46 @@
+memorisation game 
+pictures
+
+
+
+Matching pairs game:
+
+general:
+shows all cards
+hides all  card
+player can choose 2 cards
+if matching cards will stay visible
+if not cards will hide 
+once all cards are matched players wins
+
+
+start screen with:
+difficulty
+start button
+Leaderboard
+
+click play:
+cards shows
+
+when win: 
+winner!
+whats your name?
+show they are on the Leaderboard
+would you like to try again
+
+Leaderboard:
+tries(mismatch counter)
+Timer
+
+side functionality:
+
+link to board games on amazon? <advertising Amazon products: https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html or The MWS Products API is intended for the use of third party vendors on Amazon.com: https://developer.amazonservices.com
+When you are looking for an alternative to the amazon api, I can recommend http://api-doc.axesso.de/. Its free and offers the same product information and more.
+https://rapidapi.com/collection/amazon-apis
+
+weather dashboard?
+
+
+
+TA email:
+mishat98@yorku.ca

@@ -1,0 +1,54 @@
+/* finalProject.css */
+*{   
+    font-weight: bold;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+padding: 10px;
+    
+}
+header, body, footer {
+background-color: lightpink;
+
+}
+
+h1, h2 {
+color: indigo;
+}
+
+p {
+text-align: center;
+color: indigo;
+font-size: 20px;
+}
+
+.buttons {
+text-align: center;
+}
+
+input {
+font-size: 20px;
+}
+
+button {
+background-color: lightblue;
+color: midnightblue;
+text-align: center;
+font-size: 20px;
+border-radius: 8px;
+}
+
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
