@@ -12,12 +12,14 @@ var myName;
 var clickable=false;
 var foundCards=[];
 var card1, card2;
-var rows;
+/*var rows = 4;*/
 
 function updateDifficulty(d) {
-    rows = d;
+    window.location.assign("gamePage.html"); 
+    window.rows = d;
+    startGame();
 }
-
+/*
 function difficultyChange() {
 $('#easy').click(updateDifficulty(2)
 );
@@ -25,13 +27,11 @@ $('#easy').click(updateDifficulty(2)
 $('#medium').click(updateDifficulty(3));
 
 $('#hard').click(updateDifficulty(4));
-}
+}*/
 
 function startGame(){
-    window.location.assign("gamePage.html"); 
     preperation(); //draw the game board
     myName = prompt("Please enter your name", "");
-    difficultyChange();
     deck(rows*6);
 }
 /* 
