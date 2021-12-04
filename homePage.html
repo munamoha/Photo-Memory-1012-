@@ -9,6 +9,8 @@
   <title> Photo Memory! </title>
 
   <link rel="stylesheet" type="text/css" href="finalProject.css" title="style" /> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="finalProjectClient.js"></script>
 </head>
 <body>
 	<header>
@@ -16,9 +18,9 @@
   </header>
 
 <div class="difficulty">
-<button onclick = "difficulty(1)">easy(need to match 6 cards)</button>
-<button onclick = "difficulty(2)">medium(need to match 9 cards)</button>
-<button onclick = "difficulty(3)">hard(need to match 12 cards)</button>
+<button id = "easy"> easy </button>
+<button id = "medium"> medium </button>
+<button id = "hard"> hard </button>
 </div>
 
 <div class="name">
@@ -27,7 +29,7 @@
 </div>
 
 
-<button onClick = "startGame()">Start</button>
+<button onclick = "startGame()"> Start </button>
 <footer>
 	<p> add weather api here </p>
 </footer>
