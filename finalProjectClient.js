@@ -8,34 +8,43 @@ make buttons in homepage work,
 var url = "http://localhost:3001/post"
 
 var columns = 6; 
-var rows = 2;
 var myName;
 var clickable=false;
 var foundCards=[];
 var card1, card2;
+var rows;
 
-window.onload = function()
-{
-
-    preperation(); //draw the game board
-    myName = prompt("Please enter your name", "");
-    //creates the deck, rows*6 is the n of cards in the deck
-    deck(rows*6);
-    
-
-    
+function updateDifficulty(d) {
+    rows = d;
 }
 
+function difficultyChange() {
+$('#easy').click(updateDifficulty(2)
+);
+
+$('#medium').click(updateDifficulty(3));
+
+$('#hard').click(updateDifficulty(4));
+}
+
+function startGame(){
+    window.location.assign("gamePage.html"); 
+    preperation(); //draw the game board
+    myName = prompt("Please enter your name", "");
+    difficultyChange();
+    deck(rows*6);
+}
 /* 
  * Create the game board, includes 
  * x number of rows(depending on difficulty)
  * 6 columns
  * img of cards
  */
+
 function preperation(){
     
     //add rows
-    for (var i = rows;i>0;i--){
+    for (let i = rows; i>0; i--){
         //for each row create a div
         var newDiv = document.createElement("div");
 		// set its id and class
