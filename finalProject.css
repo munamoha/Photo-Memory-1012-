@@ -3,7 +3,7 @@
     font-weight: bold;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
-padding: 10px;
+padding: 5px;
     
 }
 header, body, footer {
@@ -63,6 +63,10 @@ background-color: #dddddd;
 }
 
 #gameboard {
-    height: 85vh;
-    width: 85vh;
+    margin: auto;
+}
+
+.imgColumn {
+    height: 15vh;
+    width: 12vh;
 }
