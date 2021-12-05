@@ -1,28 +1,28 @@
 /* finalProject.css */
 *{   
     font-weight: bold;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 text-align: center;
 padding: 10px;
     
 }
 header, body, footer {
-background-color: lightpink;
-
+background-color: rgb(211, 245, 245);
 }
 
 h1, h2 {
-color: indigo;
+color: midnightblue;
 }
 
 p {
 text-align: center;
-color: indigo;
+color: darkslategrey;
 font-size: 20px;
 }
 
 .buttons {
 text-align: center;
+padding: 5px 5px 6px 6px;
 }
 
 input {
@@ -51,4 +51,18 @@ padding: 8px;
 
 tr:nth-child(even) {
 background-color: #dddddd;
+}
+
+#weather {
+    background-color: honeydew;
+    border-color: midnightblue;
+    border-style: solid;
+    border-width: 3px;
+    margin: auto;
+    width: 35%;
+}
+
+#gameboard {
+    height: 85vh;
+    width: 85vh;
 }
