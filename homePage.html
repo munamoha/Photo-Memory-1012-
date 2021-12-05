@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="finalProject.css" title="style" /> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="finalProjectClient.js"></script>
+  <script src="weather.js"></script>
 </head>
 <body>
 	<header>
@@ -22,17 +23,15 @@
 <button onclick = "updateDifficulty(3)" id = "medium"> medium </button>
 <button onclick = "updateDifficulty(4)" id = "hard"> hard </button>
 </div>
-
-<!-- <div class="name">
-<input type="text" id="name" name="name">
-<button onclick = "enterName()">Confirm Name</button>
-</div>
-
-
-<button onclick = "updateDifficulty()"> Start </button> -->
+<div id="weather">
+  <h1>Current Weather in Toronto!</h1>
+  <div id="description"></div>
+  <div id="temp"></div>
+  <div id="location"></div>
+  </div>
 <footer>
-	<p> add weather api here </p>
-</footer>
+  
+    </footer>
 
 </body>
 </div>
