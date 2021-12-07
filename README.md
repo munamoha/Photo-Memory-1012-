@@ -17,7 +17,7 @@ We use card/deck terminology in this document.
 - Open homePage.html
 - Click either 'easy', 'medium' or 'hard'
 - Enter name for leaderboard
-You will now be able to play the game.
+- You will now be able to play the game.
 
 **Features:**
 - Allow the user to choose a difficulty level between easy (12 cards), medium(18 cards) and hard(24 cards)
