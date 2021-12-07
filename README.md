@@ -10,7 +10,14 @@ Muna Mohamed, munamoh@my.yorku.ca *(Section B, Lab 03)*
 **Project Description:**
 Our project is a memory game, where the player wins by successfully matching all pairs of images. The game will display a miss counter, which increases with each unsuccessful pairing. All images are displayed at the start of the game, which are then flipped, so that the user can no longer see the image on the card. The player will be introduced to a simple start screen where they can choose the difficulty and start the game. The difficulties would increase the amount of cards that the user has to remember. We have implemented a simple leaderboard. We have also implemented a weather API.
 
-We use card/deck terminology in this documents.
+We use card/deck terminology in this document.
+
+**Getting Started:**
+- Use Node.js to load finalProjectServer.js
+- Open homePage.html
+- Click either 'easy', 'medium' or 'hard'
+- Enter name for leaderboard
+You will now be able to play the game.
 
 **Features:**
 - Allow the user to choose a difficulty level between easy (12 cards), medium(18 cards) and hard(24 cards)
